@@ -704,6 +704,18 @@ Section:NewButton("Matsune Hub", "Click to execute", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Yatsuraa/Matsune/main/matssunehub.lua"))()
 end)
 
+Section:NewButton("25ms bloxfruit hub", "Click to execute", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/U6myMbZ6"))()
+end)
+
+Section:NewButton("MinXT", "Click to execute", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/Basicallyy/Basicallyy/main/Min_XT_V2_.lua")() 
+end)
+
+Section:NewButton("Maddox hub", "Click to execute", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Fiend1sh/FiendMain/main/MadoxHubKey", true))() 
+end)
+
 Section:NewButton("Stingray autofarm bloxfruit", "Click to execute", function()
     loadstring(game:HttpGet("https://scriptblox.com/raw/Blox-Fruits-Stingray-Keyless-Autofarm-11278"))()
 end)
