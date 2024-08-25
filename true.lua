@@ -761,6 +761,33 @@ Section:NewButton("Visual Bladeball", "Click to execute", function()
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a5945467f3b9388503ca653c0ea49cba.lua"))()
 end)
 
+local Section = Tab4:NewSection("MM2🖕")
+
+Section:NewButton("mm2 panel", "Click to execute", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/MarsQQ/ScriptHubScripts/master/MM2%20Admin%20Panel'),true))()
+end)
+
+Section:NewButton("Eclipse hub", "Click to execute", function()
+    getgenv().mainKey = "nil"
+
+ local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https\58//api.eclipsehub.xyz/auth";c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
+end)
+
+Section:NewButton("Ghost Hub", "op", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+end)
+
+local Section = Tab4:NewSection("TSB🤾")
+
+Section:NewButton("jn hh script", "op", function()
+    loadstring(game:HttpGet("https://freenote.biz/raw/xkcdkgyhkx",true))()
+end)
+
+Section:NewButton("invisible script", " ", function()
+    getgenv().AutoReport = true
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/KadeHubRepository/main/Latest.lua"))()
+end)
+        
 -- Fourth tab (Credits)
 local Tab5 = Window:NewTab("Credits")
 local Section5 = Tab5:NewSection("Credits")
