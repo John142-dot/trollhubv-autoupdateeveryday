@@ -1,3 +1,5 @@
+print("might be glitchy lel!")
+print("this is opensource, hmm.. i wonder why)
 -- ownership goes to zonkey9070 and renivyblox
 
 local Players = game:GetService("Players")
@@ -119,7 +121,10 @@ Section1:NewButton("Gabx-Hub *OP*", "Hub", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/FTf9uem2", true))();
 end)
 
-
+Section1:NewButton("chat bypass support therapy", "rah", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vqmpjayZ/Bypass/main/Chat.Bypasser"))()
+end)
+    
 Section1:NewButton("Delta executor keyboard", "Click to execute", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Xxtan31/Ata/main/deltakeyboardcrack.txt", true))()
 end)
