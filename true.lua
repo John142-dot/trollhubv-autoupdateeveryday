@@ -1,5 +1,5 @@
 print("might be glitchy lel!")
-print("this is opensource, hmm.. i wonder why)
+print("this is opensource, hmm.. i wonder why")
 -- ownership goes to zonkey9070 and renivyblox
 
 local Players = game:GetService("Players")
