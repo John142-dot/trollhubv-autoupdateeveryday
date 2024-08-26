@@ -1,5 +1,14 @@
 -- ownership goes to zonkey9070 and renivyblox
 
+game:GetService("StarterGui"):SetCore("SendNotification",{
+Title = "Script loaded enjoy!",
+Text = "Do you like this hub?", 
+
+Button1 = "yea!",
+Button2 = "stfu nigga",
+Duration = 12
+})
+
 local Players = game:GetService("Players")
 local Player = Players.LocalPlayer
 local ScreenGui = Instance.new("ScreenGui")
@@ -45,15 +54,6 @@ end)
 
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 local Window = Library.CreateLib("Trolling Hub v5", "DarkTheme")
-
-game:GetService("StarterGui"):SetCore("SendNotification",{
-Title = "Script loaded enjoy!",
-Text = "Do you like this hub?", 
-
-Button1 = "yea!",
-Button2 = "stfu nigga",
-Duration = 12
-})
 
 -- First tab (Trolling Hub)
 local Tab1 = Window:NewTab("Main")
@@ -231,8 +231,6 @@ end)
 Section1:NewButton("just a script rewrite", "Click to execute", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/JustAScripts/UniversalScript/Ikura/StopExploting"))()
 end)
-
-
 
 Section1:NewButton("Touchfling", "Click to execute", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
