@@ -1,14 +1,13 @@
--- ownership goes to zonkey9070 and renivyblox
-
+-- Notification
 game:GetService("StarterGui"):SetCore("SendNotification",{
-Title = "Script loaded enjoy!",
-Text = "Do you like this hub?", 
-
-Button1 = "yea!",
-Button2 = "stfu nigga",
-Duration = 12
+    Title = "Script loaded enjoy!",
+    Text = "Do you like this hub?", 
+    Button1 = "yea!",
+    Button2 = "stfu nigga",
+    Duration = 12
 })
 
+-- Watermark GUI
 local Players = game:GetService("Players")
 local Player = Players.LocalPlayer
 local ScreenGui = Instance.new("ScreenGui")
@@ -35,7 +34,7 @@ local colors = {
     Color3.fromRGB(255, 255, 0), -- Yellow
     Color3.fromRGB(0, 255, 0),   -- Green
     Color3.fromRGB(0, 0, 255),   -- Blue
-    Color3.fromRGB(75, 0, 130),   -- Indigo
+    Color3.fromRGB(75, 0, 130),  -- Indigo
     Color3.fromRGB(238, 130, 238) -- Violet
 }
 
@@ -52,8 +51,8 @@ game:GetService("RunService").RenderStepped:Connect(function(deltaTime)
     end
 end)
 
+-- Kavo UI Integration
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
-
 local Window = Library.CreateLib("Trolling Hub v5", "DarkTheme")
 
 -- First tab (Trolling Hub)
