@@ -53,6 +53,7 @@ game:GetService("RunService").RenderStepped:Connect(function(deltaTime)
 end)
 
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+
 local Window = Library.CreateLib("Trolling Hub v5", "DarkTheme")
 
 -- First tab (Trolling Hub)
